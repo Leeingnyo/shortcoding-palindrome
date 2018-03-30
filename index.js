@@ -1,1 +1,1 @@
-var palindrome = str => str.split('').reverse().map((char, index, array) => array[index] === str[index]).reduce((res, curr) => res && curr, true);
+var p=s=>s.split('').reverse().map((_,i,a)=>a[i]==s[i]).reduce((r,c)=>r&&c,true);
